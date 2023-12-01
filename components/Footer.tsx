@@ -34,30 +34,10 @@ export const FooterImpl: React.FC = () => {
   }, [])
 
   return (
-    <footer
-      className={styles.footer}
-      style={{
-        display: 'flex',
-        width: '100vw',
-        flexDirection: 'column',
-        justifyContent: 'space-between'
-      }}
-    >
-      <span
-        className={styles.copyright}
-        style={{
-          width: '100vw',
-          justifyContent: 'flex-start',
-          transform: 'translateX(25px)'
-        }}
-      >
-        Copyright© {config.author} 열공하는데 마음껏 활용하세요!
-      </span>
+    <footer className={styles.footer}>
+      <span className={styles.copyright}>Copyright© {config.author}</span>
 
-      <span
-        className={styles.settings}
-        style={{ position: 'absolute', bottom: '5px' }}
-      >
+      <span className={styles.settings}>
         {hasMounted && (
           <a
             className={styles.toggleDarkMode}
