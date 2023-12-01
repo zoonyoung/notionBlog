@@ -10,7 +10,7 @@
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .notion-frame {
@@ -189,7 +189,7 @@
 .notion-page-cover-wrapper,
 .notion-page-cover-wrapper span,
 .notion-page-cover-wrapper img {
-  width: 80vw !important;
+  width: 90vw !important;
   height: calc(18vh + var(--notion-header-height)) !important;
   min-height: calc(18vh + var(--notion-header-height)) !important;
   max-height: calc(18vh + var(--notion-header-height)) !important;
@@ -384,4 +384,8 @@
 
 .notion-block-260baa77f1e1428b97fb14ac99c7c385 {
   display: none;
+}
+
+.notion-page-content-inner {
+  margin: 7px;
 }
