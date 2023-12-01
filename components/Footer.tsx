@@ -34,9 +34,10 @@ export const FooterImpl: React.FC = () => {
   }, [])
 
   return (
-    <footer className={styles.footer} style={{ marginBottom: '20px' }}>
-      <span className={styles.copyright}>Copyright© {config.author}</span>
-
+    <footer
+      className={styles.footer}
+      style={{ marginBottom: '20px', justifyContent: 'center' }}
+    >
       <span className={styles.settings}>
         {hasMounted && (
           <a

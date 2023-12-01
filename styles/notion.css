@@ -189,7 +189,7 @@
 .notion-page-cover-wrapper,
 .notion-page-cover-wrapper span,
 .notion-page-cover-wrapper img {
-  width: 80vw !important;
+  width: 90vw !important;
   height: calc(18vh + var(--notion-header-height)) !important;
   min-height: calc(18vh + var(--notion-header-height)) !important;
   max-height: calc(18vh + var(--notion-header-height)) !important;
