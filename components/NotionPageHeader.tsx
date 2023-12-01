@@ -46,11 +46,8 @@ export const NotionPageHeader: React.FC<{
   }
 
   return (
-    <header className='notion-header' style={{ height: '30px' }}>
-      <div
-        className='notion-nav-header'
-        style={{ margin: '0px 200px 0px 200px', fontSize: '25px' }}
-      >
+    <header className='notion-header'>
+      <div className='notion-nav-header'>
         <Link href='/'>Home</Link>
 
         <div className='notion-nav-header-rhs breadcrumbs'>
@@ -83,9 +80,7 @@ export const NotionPageHeader: React.FC<{
               }
             })
             .filter(Boolean)}
-          <span style={{ fontSize: '35px' }}>
-            <ToggleThemeButton />
-          </span>
+          <ToggleThemeButton />
 
           {/* {isSearchEnabled && <Search block={block} title={null} />} */}
         </div>

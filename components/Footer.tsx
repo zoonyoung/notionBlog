@@ -34,7 +34,7 @@ export const FooterImpl: React.FC = () => {
   }, [])
 
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} style={{ marginBottom: '10px' }}>
       <span className={styles.copyright}>Copyright© {config.author}</span>
 
       <span className={styles.settings}>
