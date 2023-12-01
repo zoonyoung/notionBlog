@@ -50,7 +50,10 @@ export const NotionPageHeader: React.FC<{
       <div className='notion-nav-header'>
         <Link href='/'>Home</Link>
 
-        <div className='notion-nav-header-rhs breadcrumbs'>
+        <div
+          className='notion-nav-header-rhs breadcrumbs'
+          style={{ margin: '0px 200px 0px 200px' }}
+        >
           {navigationLinks
             ?.map((link, index) => {
               if (!link.pageId && !link.url) {
