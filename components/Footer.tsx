@@ -76,7 +76,7 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
 
-        {config.youtube && (
+        {/* {config.youtube && (
           <a
             className={styles.youtube}
             href={`https://www.youtube.com/${config.youtube}`}
@@ -86,7 +86,7 @@ export const FooterImpl: React.FC = () => {
           >
             <FaYoutube />
           </a>
-        )}
+        )} */}
       </div>
     </footer>
   )
