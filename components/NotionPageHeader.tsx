@@ -5,9 +5,11 @@ import * as types from 'notion-types'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import cs from 'classnames'
-import { Breadcrumbs, Header, Search, useNotionContext } from 'react-notion-x'
+import { Header, useNotionContext } from 'react-notion-x'
 
-import { isSearchEnabled, navigationLinks, navigationStyle } from '@/lib/config'
+// Breadcrumbs, Search,
+import { navigationLinks, navigationStyle } from '@/lib/config'
+//isSearchEnabled,
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import styles from './styles.module.css'
